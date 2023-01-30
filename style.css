@@ -1,0 +1,110 @@
+.mybody {
+    background-color: rgb(209, 234, 231);
+}
+.font-brand {
+    font-family: 'Knewave', cursive;
+    color: rgb(22, 22, 47);
+}
+.linkstyle {
+    font-family: 'Knewave', cursive;
+}
+.mynavbar {
+    background-color: rgb(117, 204, 204);
+}
+.mynavitem {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(22, 22, 47);
+}
+.mybackground {
+    background-image: url(https://images.unsplash.com/photo-1515350681417-300dee45d0e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 70px;
+}
+.myheader {
+    font-family: 'Knewave', cursive;
+    color: rgba(12, 12, 33, 0.818);
+}
+.mytext {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(22, 22, 47);
+    font-size: 35px;
+}
+.myfontstyle {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(22, 22, 47);
+}
+.mystyle {
+    background-color: rgb(175, 233, 226);
+    
+}
+#bookCard {
+    background-image: url(https://images.unsplash.com/photo-1611283054188-007d2a02ea9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(22, 22, 47);
+    font-weight: bold;
+    
+}
+.booktrip {
+    font-size: 35px;
+    
+}
+.textinput {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(22, 22, 47);
+    font-size: 20px;
+}
+#myForm {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: rgb(22, 22, 47);
+    font-size: 25px;
+    font-weight: bolder;
+}
+#myBookBtn {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(22, 22, 47);
+    border: 2px solid rgb(22, 22, 47);
+}
+#myBookRef {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(22, 22, 47);
+    border: 2px solid rgb(22, 22, 47);
+}
+
+@media all and (max-width: 800px) {
+    .mytext {
+        font-size: 25px;
+    }
+    .booktrip {
+        font-size: 25px;
+    }
+}
+@media all and (max-width: 500px) {
+    .mytext {
+        font-size: 20px;
+    }
+    .booktrip {
+        font-size: 25px;
+    }
+    .textinput {
+        font-size: 15px;
+    }
+    #myForm {
+        font-size: 20px;
+    }
+    #myBookBtn {
+        font-size: 20px;
+    }
+    #myBookRef {
+        font-size: 15px;
+    }
+}
